@@ -14,8 +14,13 @@ class Program
         {
             Console.WriteLine(compteur);
         }
-        
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
+        
+        for (int compteur = 5; compteur >= 1; compteur--)
+        {
+            Console.WriteLine(compteur);
+        }
+        Console.WriteLine("Bonne année");
 
         // Etape 3 : faire un compteur qui va de -4 à 2
         
