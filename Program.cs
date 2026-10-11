@@ -9,6 +9,11 @@ class Program
          */
         
         // Etape 1 : faire un compteur qui va de 1 à 10
+
+        for (int compteur = 1; compteur <= 10; compteur++)
+        {
+            Console.WriteLine(compteur);
+        }
         
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
 
