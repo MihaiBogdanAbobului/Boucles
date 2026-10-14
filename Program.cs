@@ -30,21 +30,35 @@ class Program
         }
         
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
-        for (int compteur4 = 0; compteur4 <= 15; compteur4++)
+       
+        /* for (int compteur4 = 0; compteur4 <= 15; compteur4++)
         {
             if (compteur4 % 2 == 0){
                 Console.WriteLine(compteur4);
             }
+        }*/
+
+        for (int compteur4 = 0; compteur4 <= 15; compteur4 += 2)
+        {
+            Console.WriteLine(compteur4);
         }
         
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
 
-        string reponse5 = Console.ReadLine();
+        /*string reponse5 = Console.ReadLine();
 
         while (reponse5 != "oui")
         {
             reponse5 = Console.ReadLine();
+        }*/
+
+        string answer = "";
+        do
+        {
+            Console.WriteLine("voulez vous sortir du programme ?");
+            answer = Console.ReadLine();
         }
+        while (answer != "oui") ;
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */
