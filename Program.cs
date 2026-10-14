@@ -22,7 +22,7 @@ class Program
         }
         Console.WriteLine("Bonne année");
 
-        // Etape 3 : faire un compteur qui va de -4 à 2
+        // Etape 3 : faire un compteur qui va de -4 à 2.
 
         for (int compteur3 = -4; compteur3 <= 2; compteur3++)
         {
